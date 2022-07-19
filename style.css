@@ -324,6 +324,7 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 0 10px;
     }
 
     .baner-img img {
@@ -342,10 +343,12 @@ footer {
     .sponsor-section {
         border: none;
         margin-top: 25px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 
     .sponsor {
-        margin: 0 42px;
+        padding: 0 5%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
@@ -378,10 +381,11 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .blog {
-        width: 300px;
+        width: 80%;
     }
 
     .see-more a {
@@ -405,11 +409,21 @@ footer {
     }
 
     .join-area img {
-        width: 300px;
+        width: 90%;
         height: 188px;
     }
 
+
+    /* ----------- Footer Section ---------- */
     footer {
         margin-top: 50px;
+    }
+
+    .footer-info h4 {
+        font-size: 16px;
+    }
+
+    .footer-info p {
+        font-size: 12px;
     }
 }
