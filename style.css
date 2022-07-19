@@ -103,7 +103,8 @@ nav ul li:last-child a i {
 .sponsor-section {
     max-width: 1110px;
     margin: 0 auto;
-    border: 0.5px solid lightgray;
+    border-top: 0.5px solid lightgray;
+    border-bottom: 0.5px solid lightgray;
     padding-top: 36px;
     padding-bottom: 34px;
     margin-top: 69px;
@@ -167,7 +168,7 @@ nav ul li:last-child a i {
 }
 
 .rating i {
-    color: orange;
+    color: #FB8200;
 }
 
 .rating p {
