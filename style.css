@@ -103,11 +103,14 @@ nav ul li:last-child a i {
 .sponsor-section {
     max-width: 1110px;
     margin: 0 auto;
-    border-top: 0.5px solid lightgray;
-    border-bottom: 0.5px solid lightgray;
     padding-top: 36px;
     padding-bottom: 34px;
     margin-top: 69px;
+    border-width: 2px;
+    background:
+        linear-gradient(to right, #fff, #555, #333, #000, #000, #333, #555, #fff) no-repeat top,
+        linear-gradient(to right, #fff, #555, #333, #000, #000, #333, #555, #fff) no-repeat bottom white;
+    background-size: 100% 2px;
 }
 
 .sponsor {
